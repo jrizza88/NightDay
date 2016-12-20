@@ -1,0 +1,26 @@
+body {
+  overflow: hidden;
+}
+
+#cloud, #sky, #night, #stars {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  width: 100%;
+}
+
+#sky {
+  background: #fff url(../static/images/sky.png) repeat-x top left;
+  z-index:1;
+}
+
+#sun_yellow{
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  width: 155px;
+  height: 152px;
+  background: transparent url(../static/images/sun.png) no-repeat center center;
+}
