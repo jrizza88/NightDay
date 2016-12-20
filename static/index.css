@@ -38,7 +38,7 @@ Note: z-index only works on positioned elements
   left: 45%;
   width: 155%;
   height: 152px;
-  background: transparent url(../static/images/sunRed.png) no-repeat center center;
+  background: transparent url(../static/images/redSun.png) no-repeat center center;
   z-index: 2;
   opacity: 0;
 }
