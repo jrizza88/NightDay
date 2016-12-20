@@ -23,4 +23,23 @@ body {
   width: 155px;
   height: 152px;
   background: transparent url(../static/images/sun.png) no-repeat center center;
+  z-index: 2;
 }
+
+/* The z-index property specifies the stack order of an element. 
+An element with greater stack order is always in front of an element 
+with a lower stack order. 
+Note: z-index only works on positioned elements 
+(position:absolute, position:relative, or position:fixed).*/
+
+#sun_red{
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  width: 155%;
+  height: 152px;
+  background: transparent url(../static/images/sunRed.png) no-repeat center center;
+  z-index: 2;
+  opacity: 0;
+}
+
